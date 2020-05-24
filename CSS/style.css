@@ -1,11 +1,423 @@
-.w-70 {
-    width: 70%;
+* {font-family: Calibri}
+
+.w-65 {
+    width: 65%;
+    height: 500px;
 }
-.w-30 {
-    width:30% ;
-    background-color: yellow;
+
+.mr-10 {
+    margin-right: 10px;
 }
-header {
+
+.w-35 {
+    width: 35%;
+    height: 500px;
+}
+
+.bg-yellow {
+    background-color: #EA9F26;
+}
+.text-content {
+    color: white;
+}
+/*.borderm {*/
+/*    width: 20%;*/
+/*    border: 5px cornsilk;*/
+/*    border-radius: 0.5px;*/
+/*    background-color: #EA9F26;*/
+/*    box-sizing: border-box;*/
+
+}
+.line-dec-y {
+    width: 20%;
+    height: 7px;
+    background-color: #EA9F26!important;
+    /*margin: 30px auto;*/
+}
+
+.line-dec {
+    width: 80%;
+    height: 5px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+.button-1 {
+    padding: 14px 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    border-color: white;
+    margin-top: 20px;
+}
+
+.bg  {
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/banner-bg.png");
+    /*height: 400px;*/
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 110px;
+}
+
+.bg-brick {
+    background-color: #AB230D!important;
+}
+
+.bg-grey {
+    background-color: lightgrey;
+}
+
+.bg-grey-img {
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page248/avalon/assets/img/best-offer-image.png");
+    background-repeat: no-repeat;
+
+}
+
+.text-tr {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+    font: bold;
+
+}
+.icon {
+    justify-content: center;
+    padding-top: 25%;
+
+}
+.relative {
+    position: relative;
+}
+.relative:hover .absolute {
+    position: absolute;
+    display: block;
+    background-color: #AB230D;
+    content: "";
+    height: 350px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.absolute {
+    position: absolute;
+    display: none;
+    text-align: center;
+    padding-top: 25%;
+
+}
+.w-33 {
+    width: 33.33333%;
+    height: 500px;
+}
+.mt-10 {
+    margin-top: 10px;
+
+}
+em {
+    color: #b94e5e;
+    font-size: 32px;
+}
+li {
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    color: #7a7a7a;
+    font-weight: 300;
+    margin-bottom: 10px!Important;
+}
+.w-100 {
+    width: 100%;
+}
+.bg2 {
+    background-image: url("https://i.redd.it/lt5fl2rmrztz.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bg3 {
+    background-image: url("https://www.moneycrashers.com/wp-content/uploads/2019/04/plan-road-trip-tips-ideas-1068x713.jpg");
+    background-repeat: no-repeat;
+}
+.d-flex {
     display: flex;
 }
-* {box-sizing: border-box}
+.w-25 {
+    width: 25%;
+    height: 350px;
+}
+.bg-orange {
+    background-color: chocolate;
+}
+.bg-rose {
+    background-color: sandybrown;
+}
+
+.bg4 {
+    background-image: url("https://www.naturepl.com/cache/pcache2/01316125.jpg");
+    position: relative;
+}
+.bg4::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.form-view1 {
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.form-view2 {
+    background-color: transparent;
+    /*position: relative;*/
+    color: #555;
+    border:none;
+    border-bottom: 3px solid #ccc;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.form-view1::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(250,250,250,0.1);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 61%;
+    margin-left: 53px;
+}
+
+textarea {
+    margin-top: 20px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 3px solid #ccc;
+    color: #555;
+
+}
+.textarea-t {
+    margin-left: 10px;
+}
+.textarea-bg {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.textarea-bg::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(250,250,250,0.1);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 87%;
+    margin-left: 47px;
+
+
+}
+
+
+.bg-light-green {
+    justify-content: center;
+    background-color: lightseagreen;
+    height: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+}
+.aukstis {
+    height:400px ;
+}
+
+}
+flex-column {
+    flex-direction: column!important;
+}
+.w-10 {
+    width: 10% !important;
+}
+
+.btn-discover {
+
+    padding: 14px 20px;
+    background-color: #b94e5e;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+}
+.col-2 {
+    background-color: white;
+    transition: all 0.5s;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #121212;
+    font-size: 19px!important;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 200px;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tx-color {
+    color: #f4bc51;
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+.mt-50 {
+    margin-top: 50px;
+}
+
+.col-10 {
+    background-color: #eee;
+    border-bottom: 6px solid white;
+    height:110px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.col10-dgrey {
+    background-color: #ddd!important;
+}
+
+
+.col-1 {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    max-width: 200px;
+    width: 90px;
+    height: 90px;
+    padding-right: 5px;
+}
+
+.col-12-text1 {
+    text-align: center;
+    background-color: #EA9F26;
+    color: white;
+    padding-top: 5px;
+    font-size: 19px!important;
+    width: 80px;
+    height: 80px;
+    text-transform: uppercase;
+}
+
+.col-3 .col-5 {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.col-12-text2 {
+
+    color: black;
+    padding-top: 15px;
+    font-size: 19px!important;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.small-text {
+    color:  #e86859;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.col-12-text3 {
+    text-align: center;
+    margin-left: 70px;
+    color: #4a4a4a;
+    font-weight: 300;
+    font-size: 19px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.btn-interested {
+
+    padding: 14px 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-interested:hover {
+    background-color: #f4bc51;
+    color: white;
+}
+
+.Send {
+
+    padding: 14px 20px;
+    background-color: #f39e4b;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 49px;
+
+}
+
+.bg-map {
+    background-color: rgba(234,159,38, 0.8);
+    position: relative;
+}
+
+.bg-map::before {
+    position: absolute;
+    background-image: url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8454.243078311581!2d25.29172388652019!3d54.712185388782295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd96baf1376d0f%3A0x77f7dd505d3e38af!2sRimi!5e0!3m2!1sen!2slt!4v1590328960314!5m2!1sen!2slt" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0");
+}
+
+.map-icon {
+    border: 2px solid white;
+    padding: 20px 40px;
+    border-radius:50%;
+    margin-top: 20%;
+}
+
+.maps-t {
+    margin-top: 33px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
